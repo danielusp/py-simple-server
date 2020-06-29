@@ -4,14 +4,19 @@ Starts locar server at http://localhost/
 
 ## Starting server 
 
-Make server.py as exec file
+Make server.py and run.sh as exec file
 
 ```
 $ sudo chmod +x server.py
+$ sudo chmod +x run.py
 ```
 
-Run server
+Run the server
 
 ```
-$ sudo ./server.py
+$ ./run.sh
 ```
+
+## Serving new files into local server
+
+Just create a file or folder inside www/
